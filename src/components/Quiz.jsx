@@ -18,7 +18,7 @@ const Quiz = () => {
     }
     const timer = setInterval(() => setTimeLeft(timeLeft - 1), 1000);
     return () => clearInterval(timer);
-  }, [timeLeft, showResult]);
+  }, );
 
   const handleAnswerSelect = (option) => {
     setSelectedAnswer(option);
