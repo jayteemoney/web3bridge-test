@@ -71,7 +71,7 @@ export const questions = [
     id: 13,
     topic: "Politics",
     question: "Which country has a parliamentary system called the Westminster system?",
-    options: ["United States", "United Kingdom", "France", "Germany"],
+    options: ["United States", "United Kingdom", "Switzerland", "Germany"],
     answer: "United Kingdom",
   },
   
