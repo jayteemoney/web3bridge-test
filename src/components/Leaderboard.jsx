@@ -17,7 +17,7 @@ const Leaderboard = () => {
 
   return (
     <div className="mt-6">
-      <h3 className="text-xl font-semibold text-gray-100 mb-4 animate-bounce">
+      <h3 className="text-xl font-semibold text-gray-200 mb-4 animate-bounce">
         Leaderboard
       </h3>
       {scores.length === 0 ? (
