@@ -21,7 +21,7 @@ const Leaderboard = () => {
         Leaderboard
       </h3>
       {scores.length === 0 ? (
-        <p className="text-yellow-200">No scores yet.</p>
+        <p className="text-yellow-300">No scores yet.</p>
       ) : (
         <ul className="space-y-2">
           {scores
